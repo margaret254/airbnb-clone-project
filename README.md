@@ -80,3 +80,30 @@ Why it matters: Secures data in transit, especially sensitive information like p
 CORS (Cross-Origin Resource Sharing) is configured to restrict which domains can interact with the API.
 Why it matters: Prevents unauthorized cross-domain requests which could lead to CSRF attacks.
 
+# CI/CD Pipeline
+CI/CD stands for Continuous Integration and Continuous Deployment/Delivery. It is a software development practice that automates the process of testing, building, and deploying applications, allowing teams to deliver updates quickly, reliably, and efficiently.
+
+- Continuous Integration (CI) ensures that changes made by different developers are automatically tested and merged into the main branch frequently.
+- Continuous Deployment/Delivery (CD) automates the release of those tested changes into staging or production environments.
+
+  # Why CI/CD Is Important for This Project
+✅ Faster Development Cycles: Automates repetitive tasks like testing and deployment, enabling rapid iteration.
+
+✅ Improved Code Quality: Automated testing ensures that new changes don’t break existing functionality.
+
+✅ Early Bug Detection: Issues are caught earlier in the development lifecycle, reducing long-term costs.
+
+✅ Reliable Deployments: Reduces human error by automating the deployment process.
+
+✅ Team Collaboration: Encourages regular commits and integration, helping teams collaborate more effectively.
+
+# Tools Used (or Recommended)
+GitHub Actions – Automates CI/CD workflows directly from your GitHub repository.
+
+Docker – Packages the application into containers for consistent deployment across environments.
+
+Jenkins / GitLab CI (optional) – Alternative CI/CD tools for more customizable pipelines.
+
+Heroku / Netlify / Vercel – For deploying the application to the web (depending on the stack).
+
+Linting/Testing Tools – (e.g., ESLint, PHPUnit, Pytest) for automated quality checks.
