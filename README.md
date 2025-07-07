@@ -29,3 +29,20 @@ Celery: For handling asynchronous tasks such as sending notifications or process
 Redis: Used for caching and session management.
 Docker: Containerization tool for consistent development and deployment environments.
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+
+# Database Design
+# Users
+Endpoints: /users/, /users/{user_id}/
+Features: Register new users, authenticate, and manage user profiles.
+# Properties
+Endpoints: /properties/, /properties/{property_id}/
+Features: Create, update, retrieve, and delete property listings.
+# Bookings
+Endpoints: /bookings/, /bookings/{booking_id}/
+Features: Make, update, and manage bookings, including check-in and check-out details.
+# Reviews
+Endpoints: /reviews/, /reviews/{review_id}/
+Features: Post and manage reviews for properties.
+# Payments
+Endpoints: /payments/
+Features: Handle payment transactions related to bookings.
